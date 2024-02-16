@@ -90,7 +90,7 @@ function animate(element) {
     });
     // Increase the scale factor of each particle
     gsap.to(element, {
-        scale: 1.5, // Change this value to make the confetti bigger or smaller
+        scale: 1.3, // Change this value to make the confetti bigger or smaller
         ease: "elastic.out(1, 0.3)",
         duration: 1
     });
