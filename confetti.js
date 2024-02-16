@@ -19,7 +19,7 @@ let interval = setInterval(() => {
     }
 }, 50);
 
-// setTimeout(() => clearInterval(interval), 5000);
+setTimeout(() => clearInterval(interval), 5000);
 
 function createConfetti() {
     let div = document.createElement('div');
